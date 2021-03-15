@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+body{
+    width: 100%;
+    height: auto;
+}
+.header{
+    width: 100%;
+    height: 750px;
+    background-color: #F2AE4D;
+    display: flex;
+    position: relative;
+}
+.header-text{
+    width: 50%;
+    height: 100%;
+}
+.header-img{
+    width: 50%;
+    height: 100%;
+    background-image: url(/images/ARkA.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 50%;
+}
+.nav_bar{
+    width: 100%;
+    height: 61px;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.container{
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 2;
+    background-color: #EEEE;
+}
+.wrapper{
+    width: 80%;
+    height: auto;
+    margin: 0px auto;
+    background-color: rgb(102, 102, 102);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1162px 914px 766px ;
+    position: relative;
+    z-index: -1;
+}
+.fa-text{
+   padding-top: 100px;
+   width: 80%;
+   display: flex;
+   flex-direction: column;
+   padding-left: 120px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.fa-text h1{
+    width: 100%;
+    padding-top: 90px;
+    left: 0%;
+    right: 4%;
+    top: 20.5px;   
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;  
+    color: #011F3A;
+}
+.btn{
+    margin-top: 5px;
+    height: 56px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    background-color: #011F3A;
+    min-width: 60%;
+    max-width: 80%;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    color: #E5E5E5;
+    
+}
+.sponsors{
+    width: 100%;
+    height: 120px;
+    background-color: #E5E5E5;
+    position: relative;
+    z-index: 1;
+
+}
+.products{
+    width: 100%;
+    height: 864px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap:4px;
+}
+.items{
+    background-color: #E5E5E5;
+}
+.items-img img{
+    width: 100%;
+    height: 300px;
+}
+.items-txt h4{
+    padding: 5px 20px;
+}
+.txt-one{
+    width: 50%;
+    flex: 1;
+    padding: 3px 20px;
+
+}
+.item-desc{
+    display: flex;
+}
+.item-desc p:last-child{
+    padding: 0px 70px;
+}
